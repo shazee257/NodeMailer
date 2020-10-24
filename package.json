@@ -1,17 +1,21 @@
 {
-  "name": "nodecontactform",
+  "name": "nodemailer",
   "version": "1.0.0",
   "description": "Sample app using nodemailer",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "Muhammad Shahzad",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dotenv": "^8.2.0",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "nodemailer": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
